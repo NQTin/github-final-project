@@ -46,8 +46,47 @@ Click "Contributor Covenant" and then click Review and submit to add the file to
 
 Scroll to the bottom of the page. Ensure that the radio button to commit directly to the main branch is selected and click Commit new file. Your project now contains a code of conduct.
 
-Save the URL of CODE_OF_CONDUCT.md file in a notepad to submit later for peer review.
+# Task 5: Add contribution guidelines
+The contribution guidelines tell project participants how to contribute to the project. To add contributions guidelines, complete the following steps:
 
-Check Instruction file for other files.
+1. Create a new file named ```**CONTRIBUTING.md**``` in the root directory of the repository with the following information:
+``` All contributions, bug reports, bug fixes, documentation improvements, enhancements, and ideas are welcome. ```
+2. Commit the file into the main branch and check if it is listed on the homepage of the repository.
+
+# Task 6: Host the script file
+1. Create a new file named simple-interest.sh in the root directory of the repository.
+
+2. Add the following code in the new file:
+   ```python
+   #!/bin/bash
+   # This script calculates simple interest given principal,
+   # annual rate of interest and time period in years.
+   
+   # Do not use this in production. Sample purpose only.
+   
+   # Author: Upkar Lidder (IBM)
+   # Additional Authors:
+   # <your GitHub username>
+   
+   # Input:
+   # p, principal amount
+   # t, time period in years
+   # r, annual rate of interest
+   
+   # Output:
+   # simple interest = p*t*r
+   
+   echo "Enter the principal:"
+   read p
+   echo "Enter rate of interest per year:"
+   read r
+   echo "Enter time period in years:"
+   read t
+   
+   s=`expr $p \* $t \* $r / 100`
+   echo "The simple interest is: "
+   echo $s
+   ```
+3. Commit the file into the main branch.
 
 # Author(s): Upkar Lidder
