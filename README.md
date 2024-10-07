@@ -23,9 +23,17 @@ Save the URL of the repository in a notepad to submit later for peer review.
 As part of Task 1, you picked a licence when creating the repository. Open the LICENSE.md file and save the URL in a notepad to submit later for peer review.
 
 # Task 3: Update the README file
+Add the following information to the file:
+```python
 A calculator that calculates simple interest given principal, annual rate of interest and time period in years.
 
-Input: p, principal amount t, time period in years r, annual rate of interest Output simple interest = ptr
+Input:
+   p, principal amount
+   t, time period in years
+   r, annual rate of interest
+Output
+   simple interest = p*t*r
+```
 
 # Task 4: Add a code of conduct
 A code of conduct helps set ground rules for the behavior of your project’s participants. It defines standards for how to engage in a community.
